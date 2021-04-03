@@ -1,0 +1,15 @@
+body{
+    font-family: Arial;
+    font-size: 12px;
+    padding: 0px;
+    margin: 0px;
+}
+.wrapper_close{
+    width: 700px;
+    margin: 200px auto 0;
+}
+.title{
+
+    font-size: 15px;
+    color: #FF0000;
+}

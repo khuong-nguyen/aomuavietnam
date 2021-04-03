@@ -1,0 +1,11 @@
+@media only screen and (max-width: 736px){
+	#header{
+		display:none;
+	}
+	 .mobile {
+		display: block;
+	}
+	.box-menu-slider{
+		display:none;
+	}
+}

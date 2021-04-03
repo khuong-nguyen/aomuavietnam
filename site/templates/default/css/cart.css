@@ -1,0 +1,682 @@
+@CHARSET "UTF-8";
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+/* set html5 elements to block */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block;
+}
+
+body{
+    font-family: Arial;
+    color: #333;
+    font-size: 12px;
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    color : #249AF5;
+    text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+p,form{
+	margin: 0px;
+	padding: 0px;
+}
+ul{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+h1,h2,h3,h4,h5{
+	margin: 0px;
+	padding: 0px;
+}
+input[type="text"]{
+	box-shadow:1px 1px 2px #eee inset;
+	-moz-box-shadow:1px 1px 2px #eee inset;
+	-webkit-box-shadow:1px 1px 2px #eee inset;
+	-khtml-box-shadow:1px 1px 2px #eee inset;
+	border: solid 1px #ccc;
+	padding: 5px 10px;
+}
+.show_notice{
+	border: dashed 1px #ff0000;
+	padding: 10px 0px;
+	overflow: hidden;
+	font-size: 16px;
+}
+#header{
+	clear: both;
+	width: 100%;
+}
+#header div.sub-head{
+	clear: both;
+	width: 1024px;
+	margin: auto;
+	margin-top: 30px;
+	overflow: hidden;
+}
+#header div.sub-head p.logo{
+	clear: both;
+	float: left;
+	width: 200px;
+	overflow: hidden;
+}
+#header ul.step{
+	float:right;
+	overflow: hidden;
+	display: block;
+	list-style-type: none;
+	margin-bottom: 30px;
+	height: 52px;
+	width:800px;
+}
+
+#header ul.step li{
+	float: left;
+	height: 52px;
+	width: 33%;
+	text-align: center;
+	text-transform: uppercase;
+	background: url("../images/step_standard.png")no-repeat center bottom transparent;	
+}
+#header ul.step li.step_done{
+	font-weight: bold;
+	background: url("../images/step_done.png") no-repeat center bottom transparent;
+	height: 52px;
+	overflow: hidden;
+}
+
+#header ul.step li.step_done span {
+	background: #ff8400;
+	color: #FFF;
+	font: normal 12px Arial;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 5px 10px;
+}
+#header ul.step li.step_finished{
+	font-weight: bold;
+	background: url("../images/step_standard.png") no-repeat center bottom transparent;
+	height: 52px;
+	overflow: hidden;
+	float: right;
+	width: 34%;
+}
+#header ul.step li.step_finished span {
+	background: #eee;
+	color: #333;
+	font: normal 12px Arial;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 5px 10px;
+}
+
+
+/*------   content-wapper ----------*/
+#content-wapper{			
+	clear: both;
+	width: 1024px;
+	margin: auto;
+	background: #fff;
+	display: block;
+	overflow: hidden;
+}
+
+.box-contact-cart{
+	float: left;
+	width: 33%;
+	overflow: hidden;
+}
+.box-contact-cart p.title{
+	clear: both;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #0097db;
+	margin-bottom: 10px;
+	overflow: hidden;
+	padding-bottom: 3px;
+}
+
+
+.box-contact-cart ul li{
+	clear: both;
+	padding: 3px 0px;
+	overflow: hidden;
+}
+.box-contact-cart ul li label{
+	clear:both;
+	width: 80px;
+	overflow: hidden;
+	display: inline-block;
+	line-height: 20px;
+	font-weight: bold;
+	color: #666;
+}
+.box-contact-cart ul li label.error{
+	font-weight: normal;
+	width: 100%;
+	color: #ff0000;
+	background: url("../images/error.gif")no-repeat;
+	overflow: hidden;
+	display: block;
+	padding-left: 20px;
+	margin-top: 5px;
+}
+.box-contact-cart ul li input[type="text"]{
+	width: 300px;
+	height: 20px;
+	padding: 5px 7px;
+}
+.box-contact-cart ul li textarea{
+	border: solid 1px #ccc;
+}
+.box-payment{
+	float: left;
+	width: 33%;
+	overflow: hidden;
+	display: block;
+}
+.box-payment p.title{
+	clear: both;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #0097db;
+	margin-bottom: 10px;
+	overflow: hidden;
+	padding-bottom: 3px;
+}
+.box-payment ul.payment li{
+	padding: 5px 0px;
+	overflow: hidden;
+}
+.box-payment ul.payment li input[type="radio"]{
+	float: left;
+	width: 30px;
+	overflow: hidden;
+}
+.box-payment ul.payment li div.info-payment{
+	overflow: hidden;
+}
+.box-payment ul.payment li div.info-payment p.name-pay{
+	font-weight: bold;
+	color: #10619d;
+	padding-bottom: 5px;
+	overflow: hidden;
+}
+.box-payment ul.payment li div.info-payment p.description{
+	color: #666;
+}
+
+div.box-cart{
+	float: right;
+	width: 33%;
+	overflow: hidden;
+}
+div.box-cart p.title{
+	clear: both;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #0097db;
+	border-bottom: solid 3px #ff8400;
+	margin-bottom: 10px;
+	overflow: hidden;
+	padding-bottom: 3px;
+}
+div.box-cart ul.items{
+	clear: both;
+}
+div.box-cart ul.items li{
+	clear: both;
+	padding: 5px 0px 10px;
+	overflow: hidden;
+}
+div.box-cart ul.items li p.name{
+	clear: both;
+	padding-bottom: 10px;
+	overflow: hidden;
+	font-weight: bold;
+}
+div.box-cart ul.items li p.img{
+	float: left;
+	width: 60px;
+	border: solid 1px #ccc;
+	overflow: hidden;
+	margin-right: 10px;
+}
+div.box-cart ul.items li p.quantity{
+	float: left;
+	width: 60px;
+	overflow: hidden;
+	margin-top: 15px;
+}
+div.box-cart ul.items li input[type="text"]{
+	width: 30px;
+}
+div.box-cart ul.items li p.price{
+	float: left;
+	width: 75px;
+	overflow: hidden;
+	margin-top: 15px;
+	text-align: center;
+}
+div.box-cart ul.items li p.money{
+	float: right;
+	width: 90px;
+	overflow: hidden;
+	font-weight: bold;
+	color: #ff0000;
+	margin-top: 15px;
+	text-align: right;
+}
+div.box-cart ul.items li p.function{
+	float: left;
+	width: 38px;
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+div.box-cart ul.items li.totals{
+	clear: both;
+	padding: 5px 0px 10px;
+	overflow: hidden;
+	border-top: solid 2px #ccc;
+}
+div.box-cart ul.items li span{
+	float: left;
+	width: 150px;
+	overflow: hidden;
+	font-weight: bold;
+}
+div.box-cart ul.items li strong{
+	float: right;
+	overflow: hidden;
+	color: #ff0000;
+}
+div.box-cart ul.items li strong.total-money{
+	float: right;
+	overflow: hidden;
+	color: #ff0000;
+	font-size: 18px;
+}
+
+div.box-button{
+	clear: both;
+	overflow: hidden;
+}
+div.box-button p.buy-next{
+	color: #666;
+	display: block;
+	overflow: hidden;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #333;
+	padding: 4px 0px;
+	border: 1px solid;
+	outline: 0;
+	font-weight: bold;
+	white-space: nowrap;
+	word-wrap: normal;
+	vertical-align: middle;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	text-shadow: 0 1px 0 #fff;
+	border-color: #ccc #ccc #aaa;
+	background-color: #e0e0e0;
+	-moz-box-shadow: inset 0 0 1px #fff;
+	-ms-box-shadow: inset 0 0 1px #fff;
+	-webkit-box-shadow: inset 0 0 1px #fff;
+	box-shadow: inset 0 0 1px #fff;
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#fffafafa,EndColorStr=#ffdcdcdc);
+	background-image: -moz-linear-gradient(top,#fafafa 0,#dcdcdc 100%);
+	background-image: -ms-linear-gradient(top,#fafafa 0,#dcdcdc 100%);
+	background-image: -o-linear-gradient(top,#fafafa 0,#dcdcdc 100%);
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#fafafa),color-stop(100%,#dcdcdc));
+	background-image: -webkit-linear-gradient(top,#fafafa 0,#dcdcdc 100%);
+	background-image: linear-gradient(to bottom,#fafafa 0,#dcdcdc 100%);
+	color: #555;
+	line-height: 3.0em;
+	width: 150px;
+	float: left;
+	margin-right: 10px;
+	margin-top: 2px;
+}
+div.box-button p.buy-next a{
+	color: #0097db;
+	font-size: 14px;
+}
+div.box-button div.order{
+	float: right;
+	width: 170px;
+	overflow: hidden;
+}
+
+div.box-button div.order input[type="submit"]{	
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #fff;
+	padding: 3px 0px;
+	border: 1px solid;
+	outline: 0;
+	font-weight: bold;
+	white-space: nowrap;
+	word-wrap: normal;
+	vertical-align: middle;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	border-color: #ccc #ccc #aaa;
+	background-color: #e0e0e0;
+	-moz-box-shadow: inset 0 0 1px #fff;
+	-ms-box-shadow: inset 0 0 1px #fff;
+	-webkit-box-shadow: inset 0 0 1px #fff;
+	box-shadow: inset 0 0 1px #fff;
+	background-color: #eb7c00;
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#ffa000),to(#eb7c00));
+	background-image: -webkit-linear-gradient(top,#ffa000,#eb7c00);
+	background-image: -moz-linear-gradient(top,#ffa000,#eb7c00);
+	background-image: -ms-linear-gradient(top,#ffa000,#eb7c00);
+	background-image: -o-linear-gradient(top,#ffa000,#eb7c00);
+	background-image: linear-gradient(top,#ffa000,#eb7c00);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#ffa000',EndColorStr='#eb7c00');
+	-webkit-box-shadow: 1px 1px 2px rgba(50,50,50,0.2);
+	-moz-box-shadow: 1px 1px 2px rgba(50,50,50,0.2);
+	box-shadow: 1px 1px 2px rgba(50,50,50,0.2);
+	line-height: 3.0em;
+	width: 170px;
+	height:50px;
+	float: left;
+	margin-right: 10px;
+	cursor: pointer;
+	text-transform: uppercase;
+	display: block;
+	overflow: hidden;
+	
+}
+.info-success-cart{
+	font-size: 14px;
+	clear: both;
+	line-height: 1.5em;
+	border: dashed 1px #ff0000;
+	padding: 10px;
+	overflow: hidden;
+}
+
+#footer{					/*------   footer ----------*/
+	clear: both;
+	overflow: hidden;
+	background: #EFEFEF;
+	margin-top: 30px;
+}
+#footer div.box-why{
+	clear: both;
+	background: #fff;
+	width: 100%;
+	padding: 10px 0px;
+	overflow: hidden;
+}
+#footer div.box-why div.box-sub{
+	clear: both;
+	width: 1000px;
+	margin: auto;
+}
+#footer div.facebook{
+	float: right;
+	width: 244px;
+	overflow: hidden;
+	background: #fff;
+}
+.margin-left-20{
+	margin-left: 20px;
+}
+
+#footer div.box-footer{
+	clear: both;
+	overflow: hidden;
+	width: 1000px;
+	margin: auto;
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+#footer div.box-footer div.col-contact{
+	clear: both;
+	float: left;
+	width: 250px;
+	overflow: hidden;
+	margin-right: 20px;
+}
+#footer div.box-footer div.col-contact p.name{
+	clear: both;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #0f51a0;
+	padding-bottom: 5px;
+}
+#footer div.box-footer div.col-contact ul li{
+	clear: both;
+	padding-bottom: 5px;
+}
+#footer div.box-footer div.col-contact ul li.cam-ket{
+	margin-top: 10px;
+	color: #0f51a0;
+	margin-bottom: 5px;
+	overflow: hidden;
+}
+#footer div.box-footer div.col-contact ul li.cam-ket i{
+	background: url("../images/sprite_icon.png")no-repeat -268px -3px;
+	height: 38px;
+	width: 38px;
+	overflow: hidden;
+	display: block;
+	float: left;
+	margin-right: 7px;
+}
+#footer div.box-footer div.col-contact ul li.bao-hanh{
+	color: #0f51a0;
+	margin-bottom: 5px;
+	overflow: hidden;
+}
+#footer div.box-footer div.col-contact ul li.bao-hanh i{
+	background: url("../images/sprite_icon.png")no-repeat -308px -3px;
+	height: 38px;
+	width: 38px;
+	overflow: hidden;
+	display: block;
+	float: left;
+	margin-right: 7px;
+}
+#footer div.box-footer div.col-contact ul li.service{
+	color: #0f51a0;
+	margin-bottom: 5px;
+	overflow: hidden;
+}
+#footer div.box-footer div.col-contact ul li.service i{
+	background: url("../images/sprite_icon.png")no-repeat -348px -3px;
+	height: 38px;
+	width: 38px;
+	overflow: hidden;
+	display: block;
+	float: left;
+	margin-right: 7px;
+}
+
+#footer div.box-footer div.col-item{	
+	float: left;
+	width: 220px;
+	overflow: hidden;
+	border-right: dotted 1px #ccc;
+	margin-right: 10px;
+}
+#footer div.box-footer div.border-no{
+	border-right: none;
+}
+#footer div.box-footer div.col-item p.title{
+	clear: both;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-bottom: 5px;
+	color: #0f51a0;
+}
+#footer div.box-footer div.col-item ul.items{
+	clear: both;
+	width: 98%;
+	margin: auto;
+} 
+#footer div.box-footer div.col-item ul.items li{
+	clear: both;
+	background: url("../images/icon-f.png")no-repeat 0px 10px;
+	padding:3px 0px;
+	padding-left: 8px;
+	border-bottom: none;
+}
+#footer div.box-footer div.col-item ul.items li a{
+	color: #333;
+}
+#footer div.box-footer div.col-item ul.items li a:hover{
+	color: #ff0000;
+}
+
+
+div.menu-footer  div.register-deal{
+	float: right;
+	width: 400px;
+	overflow: hidden;
+}
+div.menu-footer  div.register-deal p.label{
+	float: left;
+	width: 120px;
+	overflow: hidden;
+	line-height: 30px;
+	color: #fff;
+}
+div.menu-footer  div.register-deal form input[type="text"]{
+	width: 200px;
+	height: 13px;
+	padding: 3px;
+	margin-top: 2px;
+}
+div.menu-footer  div.register-deal form input[type="submit"]{
+	width: 60px;
+	height:23px;
+	cursor: pointer;
+	border: solid 1px #ccc;
+}
+.copyright{
+	clear: both;
+	overflow: hidden;
+	padding: 10px 0px 10px;
+	color: #eee;
+	width: 100%;
+	border-top: solid 1px #ccc;
+	background: #336699;
+}
+.copyright p.text{
+	clear: both;
+	width: 1000px;
+	margin: auto;
+}
+ul.item-contact-f{
+	clear: both;
+	float: left;
+	width: 500px;
+	overflow: hidden;
+	text-align: left;
+}
+ul.item-contact-f li{
+	clear: both;
+	padding: 3px 0px;
+	overflow: hidden;
+}
+ul.item-contact-f li.name{
+	clear: both;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+ul.item-copy-r{
+	float: right;
+	width: 450px;
+	text-align: right;
+}
+ul.item-copy-r li{
+	clear: both;
+	padding: 3px 0px;
+	overflow: hidden;
+}
+
+#toTop {        
+        background:url("../images/TOP-UP.png")no-repeat;
+        width:39px;
+        height:39px;
+        text-align:center;       
+        position:fixed; /* this is the magic */
+		bottom:10px; /* together with this to put the div at the bottom*/
+        right:10px;
+        cursor:pointer;
+        display:none;
+        color:#333;
+        font-family:verdana;
+        font-size:11px;
+        overflow: hidden;
+}
+
+ul.items-help{
+	clear: both;
+	overflow: hidden;	
+	width: 730px;
+	margin: auto;
+}
+ul.items-help li{
+	clear: both;
+	overflow: hidden;
+	padding: 10px 0px;
+	overflow: hidden;
+}
+
+ul.items-help li p.img{
+	clear: both;
+	float: left;
+	width: 200px;
+	overflow: hidden;
+	border: solid 1px #ccc;
+	padding: 1px;
+}
+
+ul.items-help li div.info-list{
+	float: right;
+	width: 500px;
+	overflow: hidden;
+}
+
+ul.items-help li div.info-list p.name{
+	clear: both;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+ul.items-help li div.info-list p.date{
+	clear: both;
+	color: #66;
+	font-size: 11px;
+}
+
+ul.items-help li div.info-list div.summary{
+	clear: both;
+	padding-top: 10px;
+	line-height: 1.5em;
+} 

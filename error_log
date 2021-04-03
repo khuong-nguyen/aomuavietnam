@@ -1,0 +1,60 @@
+[28-Mar-2021 03:19:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/owrnczgd/aomuavietnam.com/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home/owrnczgd/aomuavietnam.com/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/owrnczgd/aomuavietnam.com/system/database/DB.php(146): CI_DB_driver->initialize()
+#2 /home/owrnczgd/aomuavietnam.com/site/third_party/MX/Loader.php(96): DB(Array, NULL)
+#3 /home/owrnczgd/aomuavietnam.com/system/core/Loader.php(1024): MX_Loader->database()
+#4 /home/owrnczgd/aomuavietnam.com/system/core/Controller.php(53): CI_Loader->_ci_autoloader()
+#5 /home/owrnczgd/aomuavietnam.com/site/components/vnit/controllers/vnit.php(15): CI_Controller->__construct()
+#6 /home/owrnczgd/aomuavietnam.com/system/core/CodeIgniter.php(285): vnit->__construct()
+#7 /home/owrnczgd/aomuavietnam.com/index.php(187): require_once('/home/owrnczgd/...')
+#8 {main}
+  thrown in /home/owrnczgd/aomuavietnam.com/system/database/drivers/mysql/mysql_driver.php on line 88
+[28-Mar-2021 03:26:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/owrnczgd/aomuavietnam.com/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home/owrnczgd/aomuavietnam.com/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/owrnczgd/aomuavietnam.com/system/database/DB.php(146): CI_DB_driver->initialize()
+#2 /home/owrnczgd/aomuavietnam.com/site/third_party/MX/Loader.php(96): DB(Array, NULL)
+#3 /home/owrnczgd/aomuavietnam.com/system/core/Loader.php(1024): MX_Loader->database()
+#4 /home/owrnczgd/aomuavietnam.com/system/core/Controller.php(53): CI_Loader->_ci_autoloader()
+#5 /home/owrnczgd/aomuavietnam.com/site/components/vnit/controllers/vnit.php(15): CI_Controller->__construct()
+#6 /home/owrnczgd/aomuavietnam.com/system/core/CodeIgniter.php(285): vnit->__construct()
+#7 /home/owrnczgd/aomuavietnam.com/index.php(187): require_once('/home/owrnczgd/...')
+#8 {main}
+  thrown in /home/owrnczgd/aomuavietnam.com/system/database/drivers/mysql/mysql_driver.php on line 88
+[28-Mar-2021 03:35:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/owrnczgd/aomuavietnam.com/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home/owrnczgd/aomuavietnam.com/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/owrnczgd/aomuavietnam.com/system/database/DB.php(146): CI_DB_driver->initialize()
+#2 /home/owrnczgd/aomuavietnam.com/site/third_party/MX/Loader.php(96): DB(Array, NULL)
+#3 /home/owrnczgd/aomuavietnam.com/system/core/Loader.php(1024): MX_Loader->database()
+#4 /home/owrnczgd/aomuavietnam.com/system/core/Controller.php(53): CI_Loader->_ci_autoloader()
+#5 /home/owrnczgd/aomuavietnam.com/site/components/vnit/controllers/vnit.php(15): CI_Controller->__construct()
+#6 /home/owrnczgd/aomuavietnam.com/system/core/CodeIgniter.php(285): vnit->__construct()
+#7 /home/owrnczgd/aomuavietnam.com/index.php(187): require_once('/home/owrnczgd/...')
+#8 {main}
+  thrown in /home/owrnczgd/aomuavietnam.com/system/database/drivers/mysql/mysql_driver.php on line 88
+[28-Mar-2021 03:36:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/owrnczgd/aomuavietnam.com/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home/owrnczgd/aomuavietnam.com/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/owrnczgd/aomuavietnam.com/system/database/DB.php(146): CI_DB_driver->initialize()
+#2 /home/owrnczgd/aomuavietnam.com/site/third_party/MX/Loader.php(96): DB(Array, NULL)
+#3 /home/owrnczgd/aomuavietnam.com/system/core/Loader.php(1024): MX_Loader->database()
+#4 /home/owrnczgd/aomuavietnam.com/system/core/Controller.php(53): CI_Loader->_ci_autoloader()
+#5 /home/owrnczgd/aomuavietnam.com/site/components/vnit/controllers/vnit.php(15): CI_Controller->__construct()
+#6 /home/owrnczgd/aomuavietnam.com/system/core/CodeIgniter.php(285): vnit->__construct()
+#7 /home/owrnczgd/aomuavietnam.com/index.php(187): require_once('/home/owrnczgd/...')
+#8 {main}
+  thrown in /home/owrnczgd/aomuavietnam.com/system/database/drivers/mysql/mysql_driver.php on line 88
+[28-Mar-2021 03:36:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/owrnczgd/aomuavietnam.com/system/database/drivers/mysql/mysql_driver.php:88
+Stack trace:
+#0 /home/owrnczgd/aomuavietnam.com/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/owrnczgd/aomuavietnam.com/system/database/DB.php(146): CI_DB_driver->initialize()
+#2 /home/owrnczgd/aomuavietnam.com/site/third_party/MX/Loader.php(96): DB(Array, NULL)
+#3 /home/owrnczgd/aomuavietnam.com/system/core/Loader.php(1024): MX_Loader->database()
+#4 /home/owrnczgd/aomuavietnam.com/system/core/Controller.php(53): CI_Loader->_ci_autoloader()
+#5 /home/owrnczgd/aomuavietnam.com/site/components/vnit/controllers/vnit.php(15): CI_Controller->__construct()
+#6 /home/owrnczgd/aomuavietnam.com/system/core/CodeIgniter.php(285): vnit->__construct()
+#7 /home/owrnczgd/aomuavietnam.com/index.php(187): require_once('/home/owrnczgd/...')
+#8 {main}
+  thrown in /home/owrnczgd/aomuavietnam.com/system/database/drivers/mysql/mysql_driver.php on line 88

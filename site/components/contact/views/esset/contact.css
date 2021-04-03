@@ -1,0 +1,96 @@
+.form-contact{
+	float: left;
+	width: 460px;
+	overflow: hidden;
+}
+.form-contact ul.items{
+	overflow: hidden;
+	font-size: 14px;
+}
+.form-contact ul.items li{
+	padding: 5px 0px;
+}
+.form-contact ul.items li label{
+	overflow: hidden;
+	display: block;
+	float: left;
+	width: 80px;
+	font-weight: bold;
+	color: #666;
+	font-size: 12px;
+}
+.form-contact ul.items li input[type="text"]{
+	width: 350px;
+	height: 20px;
+	padding: 5px 7px;
+}
+.form-contact ul.items li textarea{
+	border: solid 1px #ccc;
+	box-shadow:1px 1px 2px #ccc inset;
+	-moz-box-shadow:1px 1px 2px #ccc inset;
+	-webkit-box-shadow:1px 1px 2px #ccc inset;
+	-khtml-box-shadow:1px 1px 2px #ccc inset;
+}
+.form-contact ul.items li input[type="submit"]{
+	display: block;
+	overflow: hidden;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #fff;
+	padding: 3px 0px;
+	border: 1px solid;
+	outline: 0;
+	font-weight: bold;
+	white-space: nowrap;
+	word-wrap: normal;
+	vertical-align: middle;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	border-color: #ccc #ccc #aaa;
+	background-color: #e0e0e0;
+	-moz-box-shadow: inset 0 0 1px #fff;
+	-ms-box-shadow: inset 0 0 1px #fff;
+	-webkit-box-shadow: inset 0 0 1px #fff;
+	box-shadow: inset 0 0 1px #fff;
+	background-color: #eb7c00;
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#ffa000),to(#eb7c00));
+	background-image: -webkit-linear-gradient(top,#ffa000,#eb7c00);
+	background-image: -moz-linear-gradient(top,#ffa000,#eb7c00);
+	background-image: -ms-linear-gradient(top,#ffa000,#eb7c00);
+	background-image: -o-linear-gradient(top,#ffa000,#eb7c00);
+	background-image: linear-gradient(top,#ffa000,#eb7c00);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#ffa000',EndColorStr='#eb7c00');
+	-webkit-box-shadow: 1px 1px 2px rgba(50,50,50,0.2);
+	-moz-box-shadow: 1px 1px 2px rgba(50,50,50,0.2);
+	box-shadow: 1px 1px 2px rgba(50,50,50,0.2);
+	line-height: 3.0em;
+	width: 170px;
+	height:50px;
+	float: left;
+	margin-right: 10px;
+	cursor: pointer;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.map-box{
+	width: 530px;
+	margin: auto;
+	overflow: hidden;
+	display: block;
+}
+.map-box p.title{
+	clear: both;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-bottom: dotted 1px #eee;
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+.title_form {
+    border-bottom: 1px solid #E5E5E5;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 20px 0;
+}

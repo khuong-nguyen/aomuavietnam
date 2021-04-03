@@ -1,0 +1,287 @@
+@CHARSET "UTF-8";
+.banner-news{
+	clear: both;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.banner-news div.banner{
+	clear: both;
+	float: left;
+	width: 900px;
+	overflow: hidden;
+}
+.banner-news div.adv{
+	float: right;
+	width: 280px;
+	overflow: hidden;
+}
+#left-news{
+	clear: both;
+	float: left;
+	width: 900px;
+	overflow: hidden;
+	border: 1px solid #e6e6e6;
+	box-shadow: 0 0 3px #e5e5e5;
+	-moz-box-shadow: 0 0 3px #e5e5e5;
+	-webkit-box-shadow: 0 0 3px #e5e5e5;
+	-khtml-box-shadow: 0 0 3px #e5e5e5;
+	margin-bottom: 10px;
+}
+#left-news ul.items{
+	clear: both;
+	overflow: hidden;
+	
+}
+#left-news ul.items li{
+	width: 683px;
+	font-family: Arial;
+	border-bottom: 1px solid #e5e5e5;
+	padding: 12px 10px;
+	overflow: hidden;
+	
+}
+#left-news ul.items li div.left-date{
+	clear: both;
+	width: 46px;
+	height: 93px;
+	float: left;
+	text-align: right;
+	padding-right: 10px;
+	border-right: 1px dotted #cdcdcd;
+}
+#left-news ul.items li div.left-date p.day{
+	border-bottom: 1px solid #C9C9C9;
+	color: #39434C;
+	font-size: 26px;
+	font-weight: bold;
+	margin-bottom: 4px;
+	margin-top: 17px;
+	text-align: center;
+}
+
+#left-news ul.items li div.left-date  p.month-year{
+	color: #7D7D7D;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+}
+#left-news ul.items li p.img{
+	width: 152px;
+	height: 110px;
+	float: left;
+	margin: 0 10px;
+	overflow: hidden;
+}
+
+#left-news ul.items li div.info-news{
+	float: right;
+	width: 440px;
+	overflow: hidden;
+}
+#left-news ul.items li div.info-news p.name{
+	clear: both;
+	font-weight: bold;
+	padding-bottom: 7px;
+	overflow: hidden;
+}
+#left-news ul.items li div.info-news p.name a{
+	color: #0097db;
+}
+#left-news ul.items li div.info-news div.summary{
+	clear: both;
+	line-height: 1.5em;
+}
+
+#left-news div.content-news{
+	clear: both;
+	width: 94%;
+	margin: auto;
+	margin-top: 20px;
+	overflow: hidden;
+	line-height: 1.5em;
+	padding-bottom: 10px;
+}
+#left-news div.content-news div.left-date{
+	width: 46px;
+	float: left;
+	text-align: right;
+	padding-right: 10px;
+	border-right: 1px dotted #cdcdcd;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+#left-news div.content-news div.left-date p.hits{
+	color: #999;
+	font-size: 11px;
+	padding-bottom: 5px;
+	overflow: hidden;
+}
+
+#left-news div.content-news div.left-date p.day{
+	font-size: 28px;
+	color: #39434c;
+	font-weight: bold;
+	line-height: 26px;
+	padding-bottom: 5px;
+	overflow: hidden;
+}
+#left-news div.content-news div.left-date p.month{
+	color: #999;
+}
+#left-news div.content-news div.info-de{
+	float: right;
+	width: 766px;
+	overflow: hidden;
+	font-weight: bold;
+	color: #999;
+}
+
+#left-news div.content-news h1.name{
+	color: #0097db;
+	padding-bottom: 10px;
+	overflow: hidden;
+	font-size: 16px;
+}
+
+#left-news div.content-news div.content{
+	clear: both;
+	line-height: 1.5em;
+	overflow: hidden;
+}
+
+#left-news div.relative-news{
+	clear: both;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+#left-news div.relative-news p.title{
+	border-left: solid 3px #0097db;
+	font-weight: bold;
+	color: #0097db;
+	padding-left: 5px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+#left-news div.relative-news ul li{
+	clear: both;
+	background:url("../images/icon-f.png")no-repeat 0px 12px;
+	padding: 5px 0px 5px 10px;
+}
+#left-news div.relative-news ul li a{
+	color: #666; 
+}
+#left-news div.relative-news ul li a:hover{
+	color: #0097db;
+}
+
+#right-news{
+	float: right;
+	width: 280px;
+	overflow: hidden;
+}
+
+#right-news p.title{
+	clear: both;
+	display: block !important;
+	background: #00a1e6 !important;
+	color: #fff !important;
+	border-top: 3px solid #fbdb36 !important;
+	font: bold 13px Arial !important;
+	padding: 8px !important;
+	overflow: hidden !important;
+	text-overflow: ellipsis !important;
+	white-space: nowrap !important;
+	text-transform: uppercase !important;
+	
+}
+#right-news ul.news-item{
+	clear: both;
+	width: 278px;
+	margin: auto;
+	padding: 0px 0px 10px;
+	border: solid 1px #eee;
+	border-top: none;
+	overflow: hidden;
+	display: block;
+}
+#right-news ul.news-item li{
+	clear: both;
+	background:url("../images/icon-f.png")no-repeat 0px 16px;
+	padding: 10px 0px 10px 10px;
+	border-bottom: solid 1px #eee;
+	width: 250px;
+	margin: auto;
+}
+#right-news ul.news-item li a{
+	color: #666;
+}
+
+
+#right-news ul.items{
+	clear: both;
+	width: 280px;
+	margin: auto;
+	padding: 10px 0px;
+}
+#right-news ul.items li{
+	clear: both;
+	clear: both;
+	padding: 10px 3px;
+	border-bottom: solid 2px #fff;
+	overflow: hidden;
+	background: #eee;
+}
+#right-news ul.items li p.name{
+	clear: both;
+	padding-bottom: 7px;
+	overflow: hidden;
+}
+#right-news ul.items li p.name a{
+	color: #666;
+	font-weight: bold;
+}
+#right-news ul.items li a{
+	color: #666;
+}
+#right-news ul.items li p.img{
+	clear: both;
+	overflow: hidden;
+	width: 90px;
+	height:90px;
+	border: solid 1px #ccc;
+	padding: 1px;
+	float: left;
+	background: #fff;
+}
+#right-news ul.items li p.img a{
+	width: 90px;
+	height: 90px;
+	display: block;
+	overflow: hidden;
+}
+
+#right-news ul.items li div.info{
+	float: right;
+	width: 170px;
+	overflow: hidden;
+}
+#right-news ul.items li div.info p.note{
+	font-size:11px;
+	color: #666;
+	padding-bottom: 5px;
+	overflow: hidden;
+}
+#right-news ul.items li div.info p.price_old{
+	text-decoration: line-through;
+	color: #999;
+	padding-bottom: 5px;
+	overflow: hidden;
+}
+
+#right-news ul.items li div.info p.price{
+	font-weight:bold;
+	color: #ff0000;
+	overflow: hidden;
+	font-size: 16px;
+}
