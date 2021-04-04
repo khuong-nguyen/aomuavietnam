@@ -39,7 +39,7 @@ class vnit extends CI_Controller{
        * default action
        */
       function index(){   
-      		$data['title']   =	'Bán sản phẩm tin học online - aomuavietnam.com';  
+      		$data['title']   =	'Sản Xuất Áo Mưa Hàng Đầu Việt Nam - aomuavietnam.com';  
       		//set view link Canonical
       		$data['linkCanonical']  = base_url();    
           //get list cat

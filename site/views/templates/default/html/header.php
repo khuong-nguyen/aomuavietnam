@@ -11,47 +11,21 @@
 <div id="header">
 	<div class="sub-header">
 		<p class="logo">
-			<a href="<?php echo base_url();?>"><img src="<?php echo $imgPath;?>logo3.png" height="120"></a>
+			<a href="<?php echo base_url();?>"><img src="<?php echo $imgPath;?>logo_minhnguyen.png" height="120" width="220" alt="Áo mưa Minh Nguyên"></a>
 		</p>
 		<div class="box-right-header">
-			<ul class="menu-head">
-				<li><a href="<?php echo $linkNews;?>">Cẩm nang mua sắm</a> &nbsp;| </li>
-				<li><a href="javascript:;">Dịch vụ </a> &nbsp;&nbsp; | 
-					<ul>
-					<?php 
-						echo $this->vdb->findMenuCacheSimple("service","","DV", 0, array('ordering'=>'ASC'),null);
-					?>
-					</ul>
-				</li>	
-				<li class="no-bg"><a href="<?php echo $linkContact;?>">Liên hệ</a></li>
-			</ul>
 			<div class="box-search">
-				<a href=""><img src="<?php echo $banner_header;?>" width="770" height="120" alt="Hoàng quân vi tính"></a>
+				<a href=""><img src="<?php echo $banner_header;?>" width="770" height="120" alt="Áo mưa Minh Nguyen"></a>
 			</div>
 			<div class="hotline">
-				<?php 
-				$typeHotline    = end(explode('.', $this->config->item("view-hotline")));
-				$fileHotline	 = base_url().'data/ads/full_images/'.$this->config->item("view-hotline");
-				if($typeHotline == 'swf'){
-				?>
-				<embed src="<?=$fileHotline;?>" width="210" height="50" />
-				<?php }else{?>
-				<a href="<?=base_url();?>"><img src="<?=$fileHotline;?>" width="200" alt="hoàng quân computer" /></a>
-				<?php }?>
 				<div class="work-time">
-					<span class="label">Thời gian làm việc:</span>
-					<span class="timer">Từ 8:00h - 20:00h từ T 2 - CN</span>					
+					<span class="label">Hotline</span>
+					<span class="timer">0908838987</span>					
 				</div>
-				<p class="support-Online">
-					<span>
-					<a class="yahoo" title="Nhân viên kinh doanh" href="ymsgr:sendim?luuminhtriet2007"><img src="http://opi.yahoo.com/online?u=luuminhtriet2007&amp;m=g&amp;t=1&amp;3=us"></a>
-						
-					</span>
-					<span>
-						<a class="skype" href="skype:luuminhtriet2007?chat"><img border="0" src="<?php echo $imgPath;?>skype.png" width="60"></a>
-						
-					</span>
-				</p>
+				<div class="work-time">
+					<span class="label">Email</span>
+					<span class="timer">info@aomuavietnam.com</span>					
+				</div>
 			</div>
 			
 		</div>
@@ -66,20 +40,6 @@
 			<input type="text" name="keyword" id="keyword" value="" placeholder="Nhập từ khóa của sản phẩm cần tìm!" />
 			<input type="submit" name="submit" value="Tìm kiếm" />
 		</form>
-		
-		<div class="box-cart">
-			<a href="javascript:;">
-				<?php 
-				$filePath  = ROOT.'site/cache/cart/cart_count'.$this->session->userdata('session_id').'.db';
-				if (file_exists($filePath)){
-				?>
-				<span class="total"><?php include_once ($filePath);?></span>
-				<?php }else {?>
-				<span class="total">0</span>
-				<?php }?>
-				<span class="label">Giỏ hàng</span>
-			</a>
-		</div>
 	</div>
 	
 </div>
