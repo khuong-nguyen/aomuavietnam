@@ -35,10 +35,6 @@
 				<li class="no-bg"><strong>Email:</strong> <?php echo $rowContact->email;?></li>
 			</ul>
 		</div>
-		<div class="facebook">
-				<iframe src="//www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/pages/Ho%C3%A0ng-Qu%C3%A2n-Computer/596941347058314&amp;width=243&amp;height=235&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=true" scrolling="no" frameborder="0" style="border: none; overflow: hidden; width: 243px; height: 235px;" allowtransparency="true" display="none"></iframe>
-		</div>
-		
 		
 	</div>
 	<div class="copyright">

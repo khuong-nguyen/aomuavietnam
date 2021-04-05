@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <install type="module" version="1.5">
     <name>Module Googleanalytics</name>
-    <author>Mytran Group</author>
+    <author>My Friend Group</author>
     <creationDate>01/06/2011</creationDate>
-    <copyright>www.mytrangroup.com</copyright>
+    <copyright>www.aomuavietnam.com</copyright>
     <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
-    <authorEmail>devmytran@gmail.com</authorEmail>
-    <authorUrl>http://www.mytrangroup.com</authorUrl>
+    <authorEmail>khuongnv1979@gmail.com</authorEmail>
+    <authorUrl>http://aomuavietnam.com</authorUrl>
     <version>1.0</version>
 
     <params>    
