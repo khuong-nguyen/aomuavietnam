@@ -36,11 +36,39 @@
 	</div>
 	<div id="nav-bar">
 		<p class="lable" <?php echo ($this->uri->segment(1) != '')? 'id="label"': '';?>>Danh mục sản phẩm</p>
-		<form action="<?php echo base_url();?>search/result" name="search" id="search" method="get">
-			<input type="text" name="keyword" id="keyword" value="" placeholder="Nhập từ khóa của sản phẩm cần tìm!" />
-			<input type="submit" name="submit" value="Tìm kiếm" />
-		</form>
-	</div>
+		<div class="row align-items-center">
+					<div class="col-10">
+						<nav id="site-navigation" class="main-navigation">
+							<ul id="menu-main_vietpx" class="main-menu menu"><li id="menu-item-1795" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1795"><a href="http://aomuavietnam.com/">Trang chủ</a></li>
+								<li id="menu-item-1674" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1674"><a href="http://www.aomuavietnam.com/gioi-thieu/">Giới thiệu</a></li>
+								<li id="menu-item-1910" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-1910"><a href="http://www.aomuavietnam.com/danh-muc/ao-mua-canh-doi/">Sản phẩm</a>
+									<ul class="sub-menu">
+										<li id="menu-item-3394" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3394"><a href="http://www.aomuavietnam.com/danh-muc/do-bao-ho-y-te/">Đồ bảo hộ y tế</a></li>
+										<li id="menu-item-2715" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2715"><a href="http://www.aomuavietnam.com/danh-muc/ao-mua-tang-pham/">Áo mưa tặng phẩm</a></li>
+										<li id="menu-item-3389" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3389"><a href="http://www.aomuavietnam.com/danh-muc/ao-mua-ban-le/">Áo mưa bán lẻ</a></li>
+										<li id="menu-item-2364" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2364"><a href="http://www.aomuavietnam.com/danh-muc/ao-mua-kieu00/">Áo mưa kiểu</a></li>
+										<li id="menu-item-1907" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-1907"><a href="http://www.aomuavietnam.com/danh-muc/ao-mua-bo-vai-du/">Áo mưa bộ vải dù</a></li>
+										<li id="menu-item-1904" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-1904"><a href="http://www.aomuavietnam.com/danh-muc/ao-mua-canh-doi/">Áo mưa cánh dơi</a></li>
+										<li id="menu-item-1914" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-1914"><a href="http://www.aomuavietnam.com/danh-muc/ao-mua-bit/">Áo mưa bít không xẻ tà</a></li>
+										<li id="menu-item-3988" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3988"><a href="http://www.aomuavietnam.com/danh-muc/ao-mua-eco-than-thien-moi-truong/">Áo mưa Eco</a></li>
+										<li id="menu-item-1905" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-1905"><a href="http://www.aomuavietnam.com/danh-muc/ao-mua-vai-du-cao-cap/">Áo mưa vải dù cao cấp</a></li>
+										<li id="menu-item-1906" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-1906"><a href="http://www.aomuavietnam.com/danh-muc/ao-mua-nhua-cao-cap/">Áo mưa nhựa cao cấp</a></li>
+										<li id="menu-item-3987" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3987"><a href="http://www.aomuavietnam.com/danh-muc/ao-mua-chu-a/">Áo mưa chữ A</a></li>
+										<li id="menu-item-3989" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3989"><a href="http://www.aomuavietnam.com/danh-muc/ao-mua-mang-to/">Áo mưa Măng Tô</a></li>
+										<li id="menu-item-1909" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-1909"><a href="http://www.aomuavietnam.com/danh-muc/ao-mua-tre-em/">Áo mưa trẻ em</a></li>
+										<li id="menu-item-1913" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-1913"><a href="http://www.aomuavietnam.com/danh-muc/ao-mua-hai-dau/">Áo mưa hai đầu</a></li>
+										<li id="menu-item-3990" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3990"><a href="http://www.aomuavietnam.com/danh-muc/bac-trum-xe-may/">Bạc Trùm Xe Máy</a></li>
+									</ul>
+								</li>
+								<li id="menu-item-1682" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1682"><a href="http://www.aomuavietnam.com/tin-tuc/">Tin tức</a></li>
+								<li id="menu-item-3369" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3369"><a href="http://www.aomuavietnam.com/catalogue/">Catalogue</a></li>
+								<li id="menu-item-2084" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2084"><a href="http://www.aomuavietnam.com/tuyen-dung/">Tuyển dụng</a></li>
+								<li id="menu-item-1675" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1675"><a href="http://www.aomuavietnam.com/lien-he/">Liên hệ báo giá</a></li>
+							</ul>						
+						</nav><!-- #site-navigation -->	
+					</div>
+				</div>
+			</div>
 	
 </div>
 <div class="mobile">
