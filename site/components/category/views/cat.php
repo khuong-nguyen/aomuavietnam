@@ -2,28 +2,6 @@
 	<div itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="<?php echo base_url();?>" itemprop="url" class="homepage"><span itemprop="title">Trang chủ</span></a></div>
 	<div itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="no-bg"><?php echo $title;?></div>		
 </div>
-<?php 
-
-//defined file Path
-$filePath  = ROOT.'site/cache/banner_cat/banner_category'.$catID.'.db';
-//check file 
-if(file_exists($filePath)){
-?>
-<div class="wrapper_slider"> 
-		<div id="slider" class="nivoSlider">
-		<?php include_once ($filePath);?>											
-		</div>
-		<script type="text/javascript">
-			$(window).load(function() {
-				$('#slider').nivoSlider();
-			});		
-		</script>		
-</div>
-<?php }else{?>
-<div class="banner-cat">
-	<a href="<?php echo base_url();?>"><img src="<?php echo base_url().'site/templates/default/images/';?>adv-horizontal.jpg" width="1000" alt="<?php echo $title;?>"></a>
-</div>
-<?php }?>
 <div class="group-items">
 	<div class="title-search">
 		<p class="number-search">Tìm thấy <?php echo count($listProducts);?> sản phẩm</p>
