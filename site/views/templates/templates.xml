@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <install type="templates" version="1.5">
     <name>Position Templates</name>
-    <author>Nguyễn Thanh Phong</author>
-    <creationDate>01/06/2011</creationDate>
+    <author>Nguyễn Vũ Khương</author>
+    <creationDate>05/04/2021</creationDate>
     <copyright>www.vngroup.com</copyright>
     <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
-    <authorEmail>phong.sttm@gmail.com</authorEmail>
-    <authorUrl>http://www.vngroup.com</authorUrl>
+    <authorEmail>info@aomuavietnam.com</authorEmail>
+    <authorUrl>http://www.aomuavietnam.com</authorUrl>
     <version>1.0</version>
 
     <position>right</position>

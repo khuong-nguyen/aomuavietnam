@@ -43,9 +43,7 @@
 								<li id="menu-item-1674" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1674"><a href="http://www.aomuavietnam.com/gioi-thieu/">Giới thiệu</a></li>
 								<li id="menu-item-1910" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-1910"><a href="http://www.aomuavietnam.com/danh-muc/ao-mua-canh-doi/">Sản phẩm</a>
 									<ul class="sub-menu">
-										<li id="menu-item-3394" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3394"><a href="http://www.aomuavietnam.com/danh-muc/do-bao-ho-y-te/">Đồ bảo hộ y tế</a></li>
 										<li id="menu-item-2715" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2715"><a href="http://www.aomuavietnam.com/danh-muc/ao-mua-tang-pham/">Áo mưa tặng phẩm</a></li>
-										<li id="menu-item-3389" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3389"><a href="http://www.aomuavietnam.com/danh-muc/ao-mua-ban-le/">Áo mưa bán lẻ</a></li>
 										<li id="menu-item-2364" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2364"><a href="http://www.aomuavietnam.com/danh-muc/ao-mua-kieu00/">Áo mưa kiểu</a></li>
 										<li id="menu-item-1907" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-1907"><a href="http://www.aomuavietnam.com/danh-muc/ao-mua-bo-vai-du/">Áo mưa bộ vải dù</a></li>
 										<li id="menu-item-1904" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-1904"><a href="http://www.aomuavietnam.com/danh-muc/ao-mua-canh-doi/">Áo mưa cánh dơi</a></li>
@@ -57,7 +55,6 @@
 										<li id="menu-item-3989" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3989"><a href="http://www.aomuavietnam.com/danh-muc/ao-mua-mang-to/">Áo mưa Măng Tô</a></li>
 										<li id="menu-item-1909" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-1909"><a href="http://www.aomuavietnam.com/danh-muc/ao-mua-tre-em/">Áo mưa trẻ em</a></li>
 										<li id="menu-item-1913" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-1913"><a href="http://www.aomuavietnam.com/danh-muc/ao-mua-hai-dau/">Áo mưa hai đầu</a></li>
-										<li id="menu-item-3990" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3990"><a href="http://www.aomuavietnam.com/danh-muc/bac-trum-xe-may/">Bạc Trùm Xe Máy</a></li>
 									</ul>
 								</li>
 								<li id="menu-item-1682" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1682"><a href="http://www.aomuavietnam.com/tin-tuc/">Tin tức</a></li>

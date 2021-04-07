@@ -241,7 +241,7 @@ class CI_vdb {
                     $namAds = $val->name;
                     $imgPath = (!empty($val->image)) ? base_url() . 'data/ads/471/' . $val->image : base_url() . 'site/templates/default/images/no_image.gif';
                     $link = $val->url;
-                    $options .= '<a href="' . $link . '"><img src="' . $imgPath . '" width="770" height="335" alt="' . $namAds . '"></a>';
+                    $options .= '<a href="' . $link . '"><img src="' . $imgPath . '" width="950" height="335" alt="' . $namAds . '"></a>';
                 }
             }
             //check options 
