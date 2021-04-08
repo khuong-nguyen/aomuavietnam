@@ -8,7 +8,7 @@
 	<?php 
 	foreach ($listReadHot as $valRe):
 		$nameRe  = $valRe->name;					
-		$linkRe	 = site_url('cam-nang/'.vnit_change_title($nameRe).'-'.$valRe->id);
+		$linkRe	 = site_url('tin-tuc/'.vnit_change_title($nameRe).'-'.$valRe->id);
 	?>
 	<li><a href="<?php echo $linkRe;?>"><?php echo $nameRe;?></a></li>
 	<?php 

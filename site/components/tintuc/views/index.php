@@ -10,7 +10,7 @@
 	    		foreach ($listProject as $val):
 	    			$name	 = $val->name;
 	    			$img	 = (!empty($val->img))?base_url().'data/projects/thumb/'.$val->img:base_url().'site/templates/default/images/no_image.gif';
-	    			$link	 = site_url('cam-nang/'.vnit_change_title($name).'-'.$val->id);
+	    			$link	 = site_url('tin-tuc/'.vnit_change_title($name).'-'.$val->id);
 	    	?>
 	    	<li>
 	    		<div class="left-date">

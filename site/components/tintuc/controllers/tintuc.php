@@ -61,7 +61,7 @@ class tintuc extends CI_Controller{
         $id = end(explode('-',$this->uri2)); 
         $rs = $this->vdb->find_by_id('projects'.$this->langdb,array('id'=>$id));
         //set view link Canonical
-        $data['linkCanonical']  = base_url().'cam-nang/'.vnit_change_title($rs->name).'-'.$rs->id.'.html';
+        $data['linkCanonical']  = base_url().'tin-tuc/'.vnit_change_title($rs->name).'-'.$rs->id.'.html';
       	//update
       	  // UPdate View
         $this->db->query("UPDATE projects SET views = views + 1 WHERE id = ".$id);
