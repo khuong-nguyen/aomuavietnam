@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
 <html>
 <head>
-    <title><?php if(isset($title)){echo $title.' chính hãng giá tốt - aomuavietnam.com';}else{'Bán sản phẩm tin học online - aomuavietnam.com';}?></title>
+    <title><?php if(isset($title)){echo $title.' chính hãng giá tốt - aomuavietnam.com';}else{'Sản xuất áo mưa Việt Nam - aomuavietnam.com';}?></title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="description" content="<?php if(isset($des)){echo $des;}else{echo  $this->config->item('site_des_'.$this->session->userdata('lang'));}?>">
     <meta name="keywords" content="<?php if(isset($keyword)){echo $des;}else{echo  $this->config->item('site_keyword_'.$this->session->userdata('lang'));}?>">

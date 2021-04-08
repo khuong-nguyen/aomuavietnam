@@ -37,12 +37,14 @@
 | in the URL cannot be matched to a valid route.
 |
 */
+
 $route['default_controller'] 	= "vnit";
 $route['vnit/getproduct'] 		= 'vnit/index'; 
 $route['404_override'] = '';
 if ($handle = opendir(APPPATH."components")) {
     /* This is the correct way to loop over the directory. */
     while (false !== ($component = readdir($handle))) {
+        
         if ($component != "." && $component != "..") {
             if(file_exists(APPPATH."components/".$component.'/config/routes.php')){
                 require APPPATH."components/".$component."/config/routes.php";
