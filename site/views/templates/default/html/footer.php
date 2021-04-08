@@ -13,17 +13,17 @@
 			</ul>
 			<p><script src="//images.dmca.com/Badges/DMCABadgeHelper.min.js"></script><a href="http://www.dmca.com/Protection/Status.aspx?ID=2fd16cdb-1309-4a36-8b6d-3a400dd78b60" title="DMCA.com Protection Program" class="dmca-badge"> <img src ="//images.dmca.com/Badges/dmca_protected_sml_120r.png?ID=2fd16cdb-1309-4a36-8b6d-3a400dd78b60"  alt="DMCA.com Protection Status" /></a></p>
 		</div>		
-		<div class="col-item">
+		<!-- <div class="col-item">
 			<p class="title">Thông tin trợ giúp</p>
 			<ul class="items">
 				<?php 
-					echo $this->vdb->findMenuCacheSimple("introduction","","TT", 0, array('ordering'=>'ASC'),null);
+					//echo $this->vdb->findMenuCacheSimple("introduction","","TT", 0, array('ordering'=>'ASC'),null);
 				?>
 				<?php 
-					echo $this->vdb->findMenuCacheSimple("help","","TG", 0, array('ordering'=>'ASC'),null);
+					//echo $this->vdb->findMenuCacheSimple("help","","TG", 0, array('ordering'=>'ASC'),null);
 				?>
 			</ul>
-		</div>
+		</div> -->
 		
 		
 		<div class="col-item margin-left-20 border-no">

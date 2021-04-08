@@ -1,4 +1,4 @@
 <?php  
-$route['cam-nang-mua-sam'] 					= 'tintuc/index';
-$route['cam-nang/(:any)'] 			= 'tintuc/detail/$1'; 
+$route['tin-tuc'] 					= 'tintuc/index';
+$route['tin-tuc/(:any)'] 			= 'tintuc/detail/$1'; 
 ?>
