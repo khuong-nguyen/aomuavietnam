@@ -41,6 +41,7 @@
 $route['default_controller'] 	= "vnit";
 $route['vnit/getproduct'] 		= 'vnit/index'; 
 $route['404_override'] = '';
+$route['seo/sitemap\.xml'] = "sitemap/index"; 
 if ($handle = opendir(APPPATH."components")) {
     /* This is the correct way to loop over the directory. */
     while (false !== ($component = readdir($handle))) {
