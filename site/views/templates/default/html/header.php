@@ -10,11 +10,11 @@
 ?>
 <div id="header">
 	<div class="sub-header">
-		<p class="logo">
+		<p class="logo" style="margin: 0px 0px 0px 0px">
 			<a href="<?php echo base_url();?>"><img src="<?php echo $imgPath;?>logo_minhnguyen.png" height="120" width="220" alt="Áo mưa Minh Nguyên"></a>
 		</p>
 		<div class="box-right-header">
-			<div class="box-search">
+			<div class="box-search" style="margin-bottom: 0px">
 				<a href=""><img src="<?php echo $banner_header;?>" width="770" height="120" alt="Áo mưa Minh Nguyen"></a>
 			</div>
 			<div class="hotline">
@@ -27,10 +27,6 @@
 					<span class="timer">info@aomuavietnam.com</span>					
 				</div>
 			</div>
-			
-		</div>
-		<!-- show search result -->
-		<div id="ressult-search-header">
 			
 		</div>
 	</div>
