@@ -35,7 +35,7 @@ class category extends CI_Controller {
      */
 
     function index() {
-        $data['title'] = 'Chính hãng giá tốt - công ty TNHH SX TM QC Minh Nguyên';
+        $data['title'] = 'Chính hãng giá tốt - công ty TNHH SX TM Quảng Cáo Minh Nguyên';
 
         //get list cat
         $data['listCat'] = $this->category->getAllCategory();
