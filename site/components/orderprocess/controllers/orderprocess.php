@@ -1,6 +1,6 @@
 <?php
 
-class order_process extends CI_Controller {
+class orderprocess extends CI_Controller {
 
     protected $_templates;
 
