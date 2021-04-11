@@ -31,11 +31,11 @@ class tintuc extends CI_Controller{
      * action default
      */
     function index(){
-     	$data["title"]			   = 'Cẩm nang mua sắm';
+     	$data["title"]			   = 'Tin tức';
      	//set view link Canonical
-     	$data['linkCanonical']  = base_url().'cam-nang-mua-sam.html';
+     	$data['linkCanonical']  = base_url().'tin-tuc.html';
      	//config pagination
-     	$config['base_url'] 		= base_url().'cam-nang-mua-sam/'.$this->uri2;  
+     	$config['base_url'] 		= base_url().'tin-tuc/'.$this->uri2;  
         $config['suffix'] 			= '.html';
         $config['total_rows']   	= $this->vdb->find_by_num("projects",0);
         $data['num'] 				= $config['total_rows'];

@@ -1,7 +1,7 @@
 ﻿<?php 
 	$imgPath	= base_url().'site/templates/default/images/';
 	$linkProduct  	= site_url('chuyen-muc');
-	$linkNews  	= site_url('cam-nang-mua-sam');
+	$linkNews  	= site_url('tin-tuc');
 	$linkService  	= site_url('dich-vu');
 	$linkContact  	= site_url('lien-he'); 
 	//load config

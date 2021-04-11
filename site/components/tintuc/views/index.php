@@ -1,6 +1,6 @@
 <div class="title-main">
 	<div itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="<?php echo base_url();?>" itemprop="url" class="homepage"><span itemprop="title">Trang chủ</span></a></div>
-	<div itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="no-bg"><span itemprop="title">Cẩm nang mua sắm</span></div>
+	<div itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="no-bg"><span itemprop="title">TIN TỨC</span></div>
 </div>		
 <?php $this->load->view('/templates/default/html/banner_news');?>
 <div id="left-news">			

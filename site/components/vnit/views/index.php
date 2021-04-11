@@ -1,5 +1,5 @@
 <?php
-$linkNews = site_url('cam-nang-mua-sam');
+$linkNews = site_url('tin-tuc');
 $linkService = site_url('dich-vu');
 ?>
 <div class="box-menu-slider">

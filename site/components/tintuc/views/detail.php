@@ -1,6 +1,6 @@
 <div class="title-main">
 	<div itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="<?php echo base_url();?>" itemprop="url" class="homepage"><span itemprop="title">Trang chủ</span></a></div>
-	<div itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="no-bg"><a href="<?php echo site_url('cam-nang-mua-sam');?>" itemprop="url"><span itemprop="title">Cẩm nang mua sắm</span></a></div>
+	<div itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="no-bg"><a href="<?php echo site_url('tin-tuc');?>" itemprop="url"><span itemprop="title">Cẩm nang mua sắm</span></a></div>
 </div>
 <?php $this->load->view('/templates/default/html/banner_news');?>
 <div id="left-news">
@@ -40,7 +40,7 @@
 				<?php 
 				foreach ($listRelative as $valRe):
 					$nameRe  = $valRe->name;					
-					$linkRe	 = site_url('cam-nang/'.vnit_change_title($nameRe).'-'.$valRe->id);
+					$linkRe	 = site_url('tin-tuc/'.vnit_change_title($nameRe).'-'.$valRe->id);
 				?>
 				<li><a href="<?php echo $linkRe;?>"><?php echo $nameRe;?></a></li>
 				<?php 
