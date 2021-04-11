@@ -1,7 +1,7 @@
 <div class="title-main">
-	<div itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="<?php echo base_url();?>" itemprop="url" class="homepage"><span itemprop="title">Trang chủ</span></a></div>
-	<div itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="<?php echo $linkCat;?>" itemprop="url" class="homepage"><span itemprop="title"><?=$nameCat;?></span></a></div>
-	<div itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="no-bg"><?php echo $rs->productname;?></div>
+	<div itemscope ><a href="<?php echo base_url();?>" itemprop="url" class="homepage"><span itemprop="title">Trang chủ</span></a></div>
+	<div itemscope ><a href="<?php echo $linkCat;?>" itemprop="url" class="homepage"><span itemprop="title"><?=$nameCat;?></span></a></div>
+	<div itemscope  class="no-bg"><?php echo $rs->productname;?></div>
 </div>
 	
 <div class="box-info-de-prod">

@@ -1,6 +1,6 @@
 <div class="title-main">
-		<div itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="<?=base_url()?>" itemprop="url" class="homepage"><span itemprop="title">Trang chủ</span></a></div>
-		<div itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="no-bg">GIỚI THIỆU</div>
+		<div itemscope ><a href="<?=base_url()?>" itemprop="url" class="homepage"><span itemprop="title">Trang chủ</span></a></div>
+		<div itemscope  class="no-bg">GIỚI THIỆU</div>
 	</div>
 	<div class="container">		
 	<p style="padding: 0 5px 0 5px;"><h1>Về Áo Mưa Minh Nguyên</h1></p>
