@@ -35,9 +35,10 @@
 		<div class="row align-items-center">
 			<div class="col-10">
 				<nav id="site-navigation" class="main-navigation">
-					<ul id="menu-main_vietpx" class="main-menu menu"><li id="menu-item-1795" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1795"><a href="http://aomuavietnam.com/">Trang chủ</a></li>
+					<ul id="menu-main_vietpx" class="main-menu menu"><li id="menu-item-1795" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1795"><a href="http://aomuavietnam.com">Trang chủ</a></li>
 						<li id="menu-item-1674" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1674"><a href="http://aomuavietnam.com/gioi-thieu">Giới thiệu</a></li>
-						<li id="menu-item-1682" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1682"><a href="http://aomuavietnam.com/tin-tuc/">Tin tức</a></li>
+						<li id="menu-item-1682" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1682"><a href="http://aomuavietnam.com/tin-tuc">Tin tức</a></li>
+						<li id="menu-item-1682" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1682"><a href="http://aomuavietnam.com/quy-trinh-dat-hang">Quy trình đơn hàng</a></li>
 					</ul>						
 				</nav><!-- #site-navigation -->	
 			</div>
